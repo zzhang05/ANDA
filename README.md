@@ -1,6 +1,6 @@
 # Evaluation Codes and Pre-trained models of WACV2024 paper ''Improving the Leaking of Augmentations in Data-Efficient GANs via Adaptive Negative Data Augmentation''
 
-We have provided the pre-trained models of ANDA with different DE-GANs on low-shot datasets for better obtaining the results we reported in the paper. The code of this module is built by ourselves based on the test codes of the DiffAug-GAN [[link]](https://github.com/mit-han-lab/data-efficient-gans) and InsGen [[link]](https://github.com/genforce/insgen). 
+We have provided the pre-trained models of ANDA with different DE-GANs on low-shot datasets for better obtaining the results we reported in the paper. The code of this module is built by ourselves based on the test codes of the DiffAug-GAN [[link]](https://github.com/mit-han-lab/data-efficient-gans), ADA [[link]](https://github.com/NVlabs/stylegan2-ada-pytorch) and InsGen [[link]](https://github.com/genforce/insgen). 
 
 # Datasets
 
