@@ -20,12 +20,23 @@ Pre-trained model on AnimalFace-dog dataset [[link]](https://drive.google.com/fi
 
 # Pre-trained models of ANDA with StyleGAN2 + ADA on Low-shot datasets
 
-Pre-trained model on 100-shot-obama dataset [[link]]()
+Pre-trained model on 100-shot-obama dataset [[link]](https://drive.google.com/file/d/1WBVWypVyUp4Qg9WAhquo7Qgp3WAbwYuI/view?usp=sharing)
 
-Pre-trained model on 100-shot-panda dataset [[link]]() 
+Pre-trained model on 100-shot-panda dataset [[link]](https://drive.google.com/file/d/1MaQjmb_mlsQfbuQtQxrLkVXmHgXwj-A_/view?usp=sharing) 
 
-Pre-trained model on 100-shot-grumpy_cat dataset [[link]]()
+Pre-trained model on 100-shot-grumpy_cat dataset [[link]](https://drive.google.com/file/d/1Ste68t4umvRtcR2lSrv_yqDrkkp85yus/view?usp=sharing)
 
-Pre-trained model on AnimalFace-cat dataset [[link]]()
+Pre-trained model on AnimalFace-cat dataset [[link]](https://drive.google.com/file/d/1zv6zmlcuc4G8SjT-iyn28AREy327WmxK/view?usp=sharing)
 
-Pre-trained model on AnimalFace-dog dataset [[link]]()
+Pre-trained model on AnimalFace-dog dataset [[link]](https://drive.google.com/file/d/1x5dS4mLy4dIga8GZNvYY938ClGR6rEQY/view?usp=sharing)
+
+# Evaluation
+
+To evaluate the Pre-trained models on low-shot datasets, run the following command:
+```
+python calc_metrics.py --metrics=fid50k_full --data=<which-dataset> --network=<which-pretrained>
+```
+
+Please note that we evaluate all the pre-trained IGGAN models on a Alienware R8 desktop with ubuntu 20.04 with an NVIDIA 2080TI GPU. The FID will be slightly different (slightly better or worse) if you apply different NVIDIA GPU and different system to evaluate the pre-trained models.
+
+We have no plans to release all the training codes at this stage. The training code will be released by an external link in the future.
