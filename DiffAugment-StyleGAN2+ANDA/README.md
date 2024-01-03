@@ -12,11 +12,11 @@ Pre-trained model on 100-shot-obama dataset [[link]](https://drive.google.com/fi
 
 Pre-trained model on 100-shot-panda dataset [[link]](https://drive.google.com/file/d/1t7LkDajXx_Mf49Sp4dRDlaZVCxXd7CSs/view?usp=sharing) 
 
-Pre-trained model on 100-shot-grumpy_cat dataset [[link]]()
+Pre-trained model on 100-shot-grumpy_cat dataset [[link]](https://drive.google.com/file/d/1wrWRgh-l-KsRtX8P22QVK3K2Ub8SY3nC/view?usp=sharing)
 
-Pre-trained model on AnimalFace-cat dataset [[link]]()
+Pre-trained model on AnimalFace-cat dataset [[link]](https://drive.google.com/file/d/1mb6wZaEg-rybVVG3PDyYe8sFAq17k6dE/view?usp=sharing)
 
-Pre-trained model on AnimalFace-dog dataset [[link]]()
+Pre-trained model on AnimalFace-dog dataset [[link]](https://drive.google.com/file/d/1RaDkC2Y0jwIAHbwSBDwgSG1N9VEvJoat/view?usp=sharing)
 
 # Pre-trained models of ANDA with StyleGAN2 + ADA on Low-shot datasets
 
