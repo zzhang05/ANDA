@@ -50,9 +50,9 @@ Pre-trained model on AnimalFace-dog dataset [[link]](https://drive.google.com/fi
 
 To evaluate the Pre-trained models on low-shot datasets, run the following command:
 
-'''
+```
 python calc_metrics.py --metrics=fid50k_full --data=<which-dataset> --network=<which-pretrained>
-'''
+```
 
 Please note that we evaluate all the pre-trained IGGAN models on a Alienware R8 desktop with ubuntu 20.04 with an NVIDIA 2080TI GPU. The FID will be slightly different (slightly better or worse) if you apply different NVIDIA GPU and different system to evaluate the pre-trained models.
 
