@@ -10,7 +10,7 @@ Please follow the DiffAug-GAN [[link]](https://github.com/mit-han-lab/data-effic
 
 Pre-trained model on 100-shot-obama dataset [[link]](https://drive.google.com/file/d/1gGNKasAsnDbBJ01h40s8x4KN-jmrKda7/view?usp=sharing)
 
-Pre-trained model on 100-shot-panda dataset [[link]]() 
+Pre-trained model on 100-shot-panda dataset [[link]](https://drive.google.com/file/d/1t7LkDajXx_Mf49Sp4dRDlaZVCxXd7CSs/view?usp=sharing) 
 
 Pre-trained model on 100-shot-grumpy_cat dataset [[link]]()
 
