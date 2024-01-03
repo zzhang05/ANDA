@@ -1,29 +1,31 @@
-# DiffAugment for StyleGAN2 (PyTorch)
+# Evaluation Codes and Pre-trained models of ANDA with StyleGAN2 + DiffAugment and StyleGAN2 + ADA
 
-This repo is implemented upon [stylegan2-ada-pytorch](https://github.com/NVlabs/stylegan2-ada-pytorch) with minimal modifications to train and load DiffAugment-stylegan2 models in PyTorch. Please check the [stylegan2-ada-pytorch](https://github.com/NVlabs/stylegan2-ada-pytorch) README for the dependencies and the other usages of this codebase.
+We provided the pre-trained models of ANDA with StyleGAN2 + DiffAugment and StyleGAN2 + ADA on low-shot datasets for better obtaining the results we reported in the paper.
 
-## Low-Shot Generation
+# Requirement
 
-The following command is an example of training StyleGAN2 with the default *Color + Translation + Cutout* DiffAugment on 100-shot Obama with 1 GPU. See [here](https://data-efficient-gans.mit.edu/datasets/) for a list of our provided low-shot datasets. You may also prepare your own dataset and specify the path to your image folder.
-```bash
-python train.py --outdir=training-runs --data=https://data-efficient-gans.mit.edu/datasets/100-shot-obama.zip --gpus=1
-```
+Please follow the DiffAug-GAN [[link]](https://github.com/mit-han-lab/data-efficient-gans) and ADA [[link]](https://github.com/NVlabs/stylegan2-ada-pytorch) to build the envirment required.
 
-## Pre-Trained Models
+# Pre-trained models of ANDA with StyleGAN2 + DiffAugment on Low-shot datasets
 
-The following commands are an example of generating images with our pre-trained 100-shot Obama model. See [here](https://data-efficient-gans.mit.edu/models/) for a list of our provided pre-trained models. The code will automatically convert a TensorFlow StyleGAN2 model to the compatible PyTorch version; you may also use `legacy.py` to do this manually.
-```bash
-python generate.py --outdir=out --seeds=1-16 --network=https://data-efficient-gans.mit.edu/models/DiffAugment-stylegan2-100-shot-obama.pkl
+Pre-trained model on 100-shot-obama dataset [[link]](https://drive.google.com/file/d/1gGNKasAsnDbBJ01h40s8x4KN-jmrKda7/view?usp=sharing)
 
-python generate_gif.py --output=obama.gif --seed=0 --num-rows=1 --num-cols=8 --network=https://data-efficient-gans.mit.edu/models/DiffAugment-stylegan2-100-shot-obama.pkl
-```
+Pre-trained model on 100-shot-panda dataset [[link]]() 
 
-<img src="../imgs/obama.gif" width="1000px"/>
+Pre-trained model on 100-shot-grumpy_cat dataset [[link]]()
 
-## Other Usages
+Pre-trained model on AnimalFace-cat dataset [[link]]()
 
-To train on larger datasets (e.g., CIFAR and FFHQ), please follow the guidelines in the [stylegan2-ada-pytorch](https://github.com/NVlabs/stylegan2-ada-pytorch) README to prepare the datasets.
+Pre-trained model on AnimalFace-dog dataset [[link]]()
 
-## Disclaimer
+# Pre-trained models of ANDA with StyleGAN2 + ADA on Low-shot datasets
 
-This PyTorch codebase will not fully reproduce our paper's results, as it uses a different set of hyperparameters and a different evaluation protocal. Please refer to our [TensorFlow repo](https://github.com/mit-han-lab/data-efficient-gans/tree/master/DiffAugment-stylegan2) to fully reproduce the paper's results.
+Pre-trained model on 100-shot-obama dataset [[link]]()
+
+Pre-trained model on 100-shot-panda dataset [[link]]() 
+
+Pre-trained model on 100-shot-grumpy_cat dataset [[link]]()
+
+Pre-trained model on AnimalFace-cat dataset [[link]]()
+
+Pre-trained model on AnimalFace-dog dataset [[link]]()
