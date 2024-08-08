@@ -68,7 +68,7 @@ python generate_gif.py --output=<which-dataset>.gif --seed=0 --num-rows=1 --num-
 
 Please note that we evaluate all the pre-trained models on a Alienware R8 desktop with ubuntu 20.04 with an NVIDIA 2080TI GPU. The FID will be slightly different (slightly better or worse) if you apply different NVIDIA GPU and different system to evaluate the pre-trained models.
 
-We have no plans to release all the training codes at this stage. The training code will be released by an external link in the future.
+The training codes will be released after the journal submission is finished.
 
 # Citation:
 ```
