@@ -1,6 +1,8 @@
-# Evaluation Codes and Pre-trained models of WACV2024 paper ''Improving the Leaking of Augmentations in Data-Efficient GANs via Adaptive Negative Data Augmentation''
+# Codes and Pre-trained models of WACV2024 paper ''Improving the Leaking of Augmentations in Data-Efficient GANs via Adaptive Negative Data Augmentation''
 
 We have provided the pre-trained models of ANDA with Different DE-GANs on low-shot datasets for better obtaining the results we reported in the paper. The code of this module is built by ourselves based on the test codes of the DiffAug-GAN [[link]](https://github.com/mit-han-lab/data-efficient-gans) and ADA [[link]](https://github.com/NVlabs/stylegan2-ada-pytorch). 
+
+The training codes are built based on ADA [[link]](https://github.com/NVlabs/stylegan2-ada-pytorch) and APA [[link]]([https://github.com/NVlabs/stylegan2-ada-pytorch](https://github.com/EndlessSora/DeceiveD)) which can be found in the folder "Training_ANDA" for more details. The journal version of this paper is submitted to IEEE TCSVT for review.  
 
 # Dataset
 
@@ -67,8 +69,6 @@ python generate_gif.py --output=<which-dataset>.gif --seed=0 --num-rows=1 --num-
 ```
 
 Please note that we evaluate all the pre-trained models on a Alienware R8 desktop with ubuntu 20.04 with an NVIDIA 2080TI GPU. The FID will be slightly different (slightly better or worse) if you apply different NVIDIA GPU and different system to evaluate the pre-trained models.
-
-The training codes will be released after the journal submission is finished.
 
 # Citation:
 ```
